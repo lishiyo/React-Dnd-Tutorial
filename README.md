@@ -1,11 +1,13 @@
 http://gaearon.github.io/react-dnd/docs-tutorial.html
 =====================
 
-`<Component {...props} />`
-
 #### Smart vs Dumb Components
 
-`If a component doesn't need some data for rendering, it doesn't need that data at all.`
+```
+If a component doesn't need some data for rendering, it doesn't need that data at all.
+
+<Component {...props} /> // pass on all props
+```
 
 Dumb:
 - Knight - dragSource
